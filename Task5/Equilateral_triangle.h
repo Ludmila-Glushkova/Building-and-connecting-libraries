@@ -3,7 +3,7 @@
 
 namespace Shapes
 {
-    class SHAPES_API EquilateralTriangle : public IsoscelesTriangle {
+    class EquilateralTriangle : public IsoscelesTriangle {
     public:
         EquilateralTriangle(const std::string & n, int sideA);
     };

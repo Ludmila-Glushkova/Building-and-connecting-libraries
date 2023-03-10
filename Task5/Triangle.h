@@ -3,7 +3,7 @@
 
 namespace Shapes
 {
-    class SHAPES_API Triangle : public Figure {
+    class Triangle : public Figure {
     protected:
         int sideA, sideB, sideC, angleA, angleB, angleC;
         void sides() const override;

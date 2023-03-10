@@ -1,6 +1,6 @@
 #pragma once
-#ifndef SHAPES_EXPORT
+#ifndef TASK4_EXPORTS
 #define SHAPES_API __declspec(dllexport)
 #else
-#define SHAPESLIBRARY_API __declspec(dllimport)
+#define SHAPES_API __declspec(dllimport)
 #endif

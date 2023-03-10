@@ -3,7 +3,7 @@
 
 namespace Shapes
 {
-    class SHAPES_API Quadrilateral : public Figure {
+    class Quadrilateral : public Figure {
     protected:
         int sideA, sideB, sideC, sideD, angleA, angleB, angleC, angleD;
         void sides() const override;

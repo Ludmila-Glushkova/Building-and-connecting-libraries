@@ -1,11 +1,10 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include "Shapes.h"
 
 namespace Shapes
 {
-    class SHAPES_API Figure {
+    class Figure {
     private:
         std::string name;
 
