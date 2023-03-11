@@ -3,8 +3,8 @@
 
 namespace Shapes
 {
-    class SHAPES_API Rhombus : public Parallelogram {
+    class Rhombus : public Parallelogram {
     public:
-        Rhombus(const std::string & n, int sideA, int angleA, int angleB);
+        SHAPES_API Rhombus(const std::string & n, int sideA, int angleA, int angleB);
     };
 }

@@ -5,20 +5,20 @@
 
 namespace Shapes
 {
-    class SHAPES_API Figure {
+    class Figure {
     private:
         std::string name;
 
     protected:
-        Figure(const std::string & n);
+        SHAPES_API Figure(const std::string & n);
 
-        virtual void sides() const;
+        SHAPES_API virtual void sides() const;
 
-        virtual void angles() const;
+        SHAPES_API virtual void angles() const;
 
     public:
-        void print();
-        virtual ~Figure();
+        SHAPES_API void print();
+        SHAPES_API virtual ~Figure();
     };
 }
 

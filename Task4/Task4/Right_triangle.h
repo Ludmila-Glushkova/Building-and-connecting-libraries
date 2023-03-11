@@ -3,9 +3,9 @@
 
 namespace Shapes
 {
-    class SHAPES_API RightTriangle : public Triangle {
+    class RightTriangle : public Triangle {
     public:
-        RightTriangle(const std::string & n, int sideA, int sideB, int sideC,
+        SHAPES_API RightTriangle(const std::string & n, int sideA, int sideB, int sideC,
             int angleA, int angleB);
     };
 }
